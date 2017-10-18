@@ -12,35 +12,36 @@ version = "0.1.0"
 
 [[bin]]
 name = "bittrexcli"
-path = "apps/bittrexcli.rs"
-
-[[bin]]
-name = "poloautobuy"
-path = "apps/poloautobuy.rs"
-
-[[bin]]
-name = "poloautosell"
-path = "apps/poloautosell.rs"
+path = "apps/bittrex/bittrexcli.rs"
 
 [[bin]]
 name = "bittrexautobuy"
-path = "apps/bittrexautobuy.rs"
+path = "apps/bittrex/bittrexautobuy.rs"
 
 [[bin]]
 name = "bittrexautosell"
-path = "apps/bittrexautosell.rs"
-
-[[bin]]
-name = "polobuysell"
-path = "apps/buy_v_sell_poloniex.rs"
-
-[[bin]]
-name = "polobuyprice"
-path = "apps/poloautobuyprice.rs"
+path = "apps/bittrex/bittrexautosell.rs"
 
 [[bin]]
 name = "bittrexbuyprice"
-path = "apps/bittrexautobuyprice.rs"
+path = "apps/bittrex/bittrexautobuyprice.rs"
+
+[[bin]]
+name = "poloautobuy"
+path = "apps/poloniex/poloautobuy.rs"
+
+[[bin]]
+name = "poloautosell"
+path = "apps/poloniex/poloautosell.rs"
+
+[[bin]]
+name = "polobuysell"
+path = "apps/poloniex/buy_v_sell_poloniex.rs"
+
+[[bin]]
+name = "polobuyprice"
+path = "apps/poloniex/poloautobuyprice.rs"
+
 
 [lib]
 name = "tropix"
